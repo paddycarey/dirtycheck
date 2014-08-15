@@ -50,8 +50,7 @@ def pretty_print_stats(stats):
 
 if __name__ == '__main__':
 
-    # get directory from the command line, defaulting to the current directory
-    # if none is passed
+    # get directory from the command line (required)
     try:
         directory = sys.argv[1]
     except IndexError:
